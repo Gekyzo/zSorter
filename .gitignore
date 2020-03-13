@@ -1,0 +1,9 @@
+# Git
+package-lock.json
+node_modules/
+
+# Webpack
+dist/
+
+# VSCode
+.vscode/

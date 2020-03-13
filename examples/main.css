@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+main {
+    margin-left: calc((100% - 180px) / 2);
+    margin-top: calc((50% - 180px) / 2);
+    position: relative;
+}
+
+article {
+    border: 1px solid black;
+    padding: 30px;
+    position: absolute;
+}
+
+article#uno {
+    background: #2196f3;
+    z-index: 2;
+    left: 20px;
+    top: 20px;
+}
+
+article#dos {
+    background: #1e88e5;
+    z-index: 4;
+    left: 40px;
+    top: 40px;
+}
+
+article#tres {
+    background: #1976d2;
+    z-index: 5;
+    left: 60px;
+    top: 60px;
+}
+
+article#cuatro {
+    background: #1565c0;
+    z-index: 1;
+    left: 80px;
+    top: 80px;
+}
+
+article#cinco {
+    background: #0d47a1;
+    z-index: 3;
+    left: 100px;
+    top: 100px;
+}

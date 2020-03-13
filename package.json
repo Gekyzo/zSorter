@@ -1,0 +1,21 @@
+{
+    "name": "zsorter",
+    "version": "1.0.0",
+    "description": "Librería para ordenar los valores z-index de una pagina.",
+    "main": "dist/zsorter.js",
+    "scripts": {
+        "webpack:dev": "webpack --progress --colors --watch --mode development",
+        "webpack:pro": "webpack --mode production"
+    },
+    "author": "ciro.mora@gmail.com",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.8.4",
+        "@babel/plugin-transform-async-to-generator": "^7.8.3",
+        "@babel/plugin-transform-classes": "^7.8.3",
+        "@babel/preset-env": "^7.8.4",
+        "babel-loader": "^8.0.6",
+        "webpack": "^4.41.6",
+        "webpack-cli": "^3.3.11"
+    }
+}
